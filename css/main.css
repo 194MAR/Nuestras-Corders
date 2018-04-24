@@ -1,3 +1,36 @@
-body {
-  background-color: pink;
+body{
+  background-color: lightgrey;
+  font-family: "inconsolata", "monospace";
+
+}
+hr{
+  border: 2px solid purple;
+  left: 0;
+  position: absolute;
+  width: 100px;
+
+}
+section{
+  border: 1px solid black;
+  width: 80%;
+  margin:5% 10%;
+
+}
+div.retrato img{
+  width: 100%;
+  height: 290px;
+
+}
+.retrato{
+  border: 1px solid black;
+  display: inline-block;
+  height: 300px;
+  width: 20%;
+  margin-left: 10%
+}
+p, h3, h2 {
+text-align: center;
+position: relative;
+bottom: 60px;
+
 }
